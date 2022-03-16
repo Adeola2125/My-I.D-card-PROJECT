@@ -1,0 +1,120 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    list-style-type: none;
+    background-color: #000;
+    color: #f1f1f1;
+    width: 100%;
+    height: 40px;
+    /* opacity: 0.6; */
+    padding-top: 25px;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    /* position: sticky; */
+}
+li{
+    display: inline;
+    margin-left: 40px;
+}
+
+a{
+    color: #f1f1f1;
+    text-decoration: none;
+    
+}
+button:hover{
+    background-color: #ff6347;
+    color: #f1f1f1;
+}
+button{
+    padding: 5px;
+    cursor: pointer;
+}
+#r{
+    background-color: rgb(255, 99, 71);
+    color: #f1f1f1;
+    height: 50px;
+    width: 80%;
+    margin: 100px;
+    padding: 20px 0px;
+    font-size: 50px;
+    text-align: center;
+    
+
+}
+.dropdown:hover{
+    background-color: #000;
+    position: absolute;
+    color: #ff6347;
+    /* display: n; */
+    display: none;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+}
+.home{
+    position: relative;
+    
+
+}
+.home:hover .dropdown{
+    display: block;
+
+}
+
+.dropdown a{
+    display: block;
+}
+.listitems:hover{
+    color: #ff6347;
+}
+.CSS{
+    position: relative;
+}
+b{
+    margin-top: 50px;
+}
+#g{
+    background-color: #ff6347;
+    color: #f1f1f1;
+    height: 50px;
+    width: 80%;
+    margin: 100px;
+    padding: 20px 0px;
+    font-size: 50px;
+    text-align: center;
+
+}
+#b{
+    background-color: hsl(9, 100%, 64%);
+    color: #f1f1f1;
+    height: 50px;
+    width: 80%;
+    margin: 100px;
+    padding: 20px 0px;
+    font-size: 50px;
+    text-align: center;
+    
+    
+}
+h3{
+    font-size: 30px;
+    margin-left: 20px;
+    
+}
+h4{
+    border: 5px solid red;
+    border-bottom-style: dotted;
+    border-bottom-color: black;
+    border-style: hidden dashed groove hidden;
+    /* position: absolute; */
+}
+ p{
+    margin-left: 20px;
+}
+h6{
+    margin-top: 2px;
+}
