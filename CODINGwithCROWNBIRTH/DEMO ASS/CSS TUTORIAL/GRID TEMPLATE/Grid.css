@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navnest{
+    background-color: black;
+    border-radius: 2px;
+    display: inline-block;
+    position: fixed;
+    width: 100%;
+    margin-left: 0px;
+}
+.nav1{
+    display: inline;
+}
+li{
+    display: inline-block;
+    color: #f1f1f1;
+    margin: 20px;
+}
+ul{
+    margin-right: 80px;
+    /* text-align: end; */
+    margin-top: 0px;
+}
+img{
+    width: 200px;
+}

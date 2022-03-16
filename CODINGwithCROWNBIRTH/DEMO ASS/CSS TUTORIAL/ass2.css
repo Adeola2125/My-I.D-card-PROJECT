@@ -1,0 +1,48 @@
+body{
+    background-image: url(./shipping\ background\ image.jpg);
+    background-size: contain;
+}
+div{
+    width: 70%;
+    height: 500px;
+    background-color: lightgrey;
+    margin: auto;
+}
+.vv{
+    height: 20px;
+    font-size: 25px;
+    /* text-align: center; */
+}
+.ll{
+    font-size: 30px;
+    width: 15px;
+    padding-bottom: none;
+}
+.i {
+    background-color: rgb(21, 32, 43);
+    color: white;
+    height: 0px;
+    font-size: 20px;
+    width: 10px;
+}
+.ii {
+    background-color: rgb(21, 32, 43);
+    color: white;
+    height: 0px;
+    font-size: 20px;
+    width: 10px;
+}
+.iii {
+    background-color: rgb(21, 32, 43);
+    color: white;
+    height: 0px;
+    font-size: 20px;
+    width: 10px;
+}
+.iv {
+    background-color: rgb(21, 32, 43);
+    color: white;
+    height: 0px;
+    font-size: 20px;
+    width: 10px;
+}

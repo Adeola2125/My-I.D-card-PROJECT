@@ -1,0 +1,35 @@
+.AffectiveSkill{
+padding: 0px;
+margin: 0px;
+}
+.rotated{
+transform: rotate(-30deg);
+}
+.average{
+    font-size: 14px;
+}
+.ltable{
+    padding-bottom: 50px;
+}
+.Table-2{
+    height: 700px;
+    width: 250px;
+    padding-top: 0px;
+}
+.Table-3{
+    padding: 10px 20px;
+    /* height: 260px; */
+}
+.Table-4{
+    /* padding: 50px 20px; */
+    height: 50px;
+}
+.psyco{
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .Table-1{
+        height: 100% !important;
+    }
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<style>
+    .container-fluid{
+        box-sizing: border-box;
+        height: 100vh;
+    }
+    
+    .content1{
+        height: 100vh;
+        background-image: url(./Wema\ login\ pge\ image.png);
+        background-size: cover;
+        position: relative;
+    }
+    img{
+        position: absolute;
+        left: 13%;
+        top: 16%;
+    }
+    .absolute1{
+        position: absolute;
+        color: #ffffff;
+        top: 42%;
+        left: 23%;
+    }
+    .btn{
+        width: 160px;
+        height: 45px;
+        background-color: #ffffff;
+        color: #AB0B4B;
+        border: none;
+    }
+    .btn:hover{
+        background-color: #f5f5f5;
+        color: #AB0B4B;
+    }
+    p{
+        font-size: 15px;
+    }
+    .content2{
+        height: 100vh;
+        position: relative;
+        background-color: #ffffff!important;
+        color: #757575;
+    }
+    .absolute2{
+        position: absolute;
+        top: 13%;
+        left: 10%;
+    }
+    .Go{
+        font-size: 17px;
+    }
+    a{
+        text-align: center;
+        color: #AB0B4B;
+        font-size: large;
+    }
+    h1{
+        font-size: 22px;
+        color: #000;
+    }
+    hr{
+        border: 2px solid #AB0B4B;
+        width: 12%;
+        margin-left: 0px;
+    }
+    .form-control{
+        width: 350px;
+    }
+    /* .forgotpassword{
+        margin-left: 170px;
+        font-size: 15px;
+    } */
+    .login{
+        width: 350px;
+        color: #ffffff;
+        background-color: #AB0B4B;
+        border-color: #AB0B4B;
+        box-shadow: 0px 1px 2px 1px #000;
+        
+    }
+    .login:hover{
+        background-color: #AB0B4B;
+        color: #ffffff;
+    }
+    ul{
+        position: absolute;
+        bottom: 5%;
+        left: 18%;
+    }
+    li{
+        list-style-type: none;
+        display: inline;
+        font-size: 25px;
+        color: #AB0B4B;
+        margin: 10px;
+    }
+    .ig{
+        background-color: #ffffff;
+        padding: 5px;
+        border-radius: 30px;
+    }
+    .fa{
+        background-color: #ffffff;
+        padding: 5px;
+        border-radius: 30px;
+        
+    }
+    .tw{
+        background-color: #ffffff;
+        padding: 5px;
+        border-radius: 30px;
+    }
+</style>
+<body>
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-7 bg-primary content1 d-none d-sm-block h-sm-auto">
+                <img src="./wemma-removebg-preview.png" alt="">
+                <div class="absolute1">
+                   
+                <h2>Sign up seamlessly</h2> <br>
+                <p></p>
+                <p>Open an ALAT account from your phone with your BVN and phone <br> number, no paperwork required.</p> <br>
+                <button type="Getstarted" class="btn btn-primary">Get Started</button>
+                <br>
+                </div>
+                <ul>
+                    <li><i class="ig fa-brands fa-instagram"></i></li>
+                    <li><i class="fa fa-brands fa-facebook"></i></li>
+                    <li><i class="tw fa-brands fa-twitter"></i></li>
+                </ul>
+            </div>
+            <div class="col-5 bg-secondary content2 h-sm-auto p-sm-12">
+                <div class="absolute2">
+                    <a href=""><p class="Go">Go to ALAT Website</p></a>
+                    <h1>Welcome Back!</h1>
+                    <hr> <br>
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email Address/Username</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                         </div> <br>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password <a class="forgotpassword" href=""><span style="position: absolute; right: 1rem; font-size: 15px;">Forgot Passport?</span></a></label>
+                          <input type="password" class="form-control d-block" id="exampleInputPassword1">
+                        </div>
+                        <br>
+                        <button type="login" class="btn btn-primary login">Login</button> <br> <br>
+                        <a href="">help@alat.ng</a> <a href=""><span style="margin-left: 110px;">0700 2255 2528</span></a>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>

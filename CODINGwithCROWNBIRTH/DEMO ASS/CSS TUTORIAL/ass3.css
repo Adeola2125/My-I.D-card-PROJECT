@@ -1,0 +1,21 @@
+body{
+    background-image: url(./shipping\ background\ image.jpg);
+    background-size: cover;
+}
+div{
+    background-color: lightgray;
+    height: 300px;
+    width: 70%;
+    margin: 30vh;
+    
+}
+h3{
+    font-weight: lighter;
+    margin-top: 150px;
+}
+.bb{
+    font-weight: lighter;
+}
+table{
+    padding: 30px;
+}

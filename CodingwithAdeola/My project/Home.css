@@ -1,0 +1,26 @@
+/* for larger devices */ 
+@media only screen and (min-device-width: 400px) {
+h1{
+    font-size: 100px;
+    color: white;
+    margin-left: 0px;
+    background-color: purple;
+    padding-left: 40px;
+}
+img{
+    background-image: cover;
+}
+} 
+/* for screens with width smaller than 400px */ 
+    h1{
+        font-size: 100px;
+        color: white;
+        margin-left: 0px;
+        background-color: purple;
+        padding-left: 40px;
+    }
+    img{
+        background-image: cover;
+        padding-left: 150px;
+    }
+    
