@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-nav{
+    padding-right: 15%;
+    margin: 10px;
+    color: #777777;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+}
+.nav-link:hover{
+    color: #1abc9c!important;
+}
+.navbar-brand{
+    padding-left: 10%;
+    font-size: 21px;
+}
+.firstsection{
+    padding-top: 50px;
+    background-color: #1abc9c;
+    padding-bottom: 90px;
+    padding-right: 15px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h3{
+    font-size: 24px;
+    /* font-weight: lighter; */
+}
+.text1{
+    color: #ffffff;
+    font-weight: lighter;
+    padding-top: 30px;
+}
+.bird{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+}
+.secondsection{
+    height: 45vh;
+    background-color: #474e5d;
+    color: #ffffff;
+}
+.text2{
+    color: #ffffff;
+    font-weight: lighter;
+    padding: 60px 0px 30px 0px;
+}
+.btn{
+    color: #333333;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 6px;
+    border-color: transparent;
+}
+.CreateAccount:hover{
+    color: black;
+    border-color: #ffffff;
+}
+.contentimage{
+    width: 100%;
+}
+.text3{
+    color:#474e5d;
+    font-weight: lighter;
+    padding: 70px 0px 70px 0px;
+}
+.footer{
+    background-color: #2f2f2f;
+    /* height: 40vh; */
+    padding: 60px;
+    color: #ffffff;
+    margin-top: 100px;
+}
+.footer-text{
+    font-size: 16px;
+}
+.footer-link{
+    color: #337ab7;
+    background-color: transparent;
+}
+.card{
+    box-shadow: 5px 5px 5px 5px #1abc9c!important;
+}

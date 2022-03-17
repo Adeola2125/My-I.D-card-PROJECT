@@ -1,0 +1,25 @@
+.navbar{
+    opacity: 0.9;
+}
+.navbar-nav{
+    padding-right: 50px;
+}
+.dropdown-menu{
+    margin-right: 50px;
+}
+.carousel-indicators{
+    background-color: #fff;
+    border-radius: 50%;
+    border: #fff;
+    width: 10px;
+    height: 10px;
+}
+.carousel-item{
+    heig;
+}
+.d-block{
+    background-size: cover;
+}
+.dropdown-item:hover{
+    background-color: #ff4500!important;
+}
